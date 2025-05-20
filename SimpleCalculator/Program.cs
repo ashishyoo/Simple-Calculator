@@ -10,3 +10,14 @@
 
         ");
 }
+
+double first;
+double second;
+
+void Input()
+{
+        Console.Write("Enter first number -> ");
+        first = double.Parse(Console.ReadLine());
+        Console.Write("Enter second number -> ");
+        second = double.Parse(Console.ReadLine());
+}
