@@ -53,3 +53,12 @@ void Menu()
                 Console.ReadKey();
         }
 }
+
+void StartCalculator()
+{
+        Logo();
+        Input();
+        Menu();
+}
+
+StartCalculator();
